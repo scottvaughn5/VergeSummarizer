@@ -29,6 +29,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="runserver.py" />
+    <Compile Include="VergeSummarizer\Summarizer.py" />
     <Compile Include="VergeSummarizer\__init__.py" />
     <Compile Include="VergeSummarizer\views.py" />
   </ItemGroup>
@@ -37,10 +38,14 @@
     <Folder Include="VergeSummarizer\static\" />
     <Folder Include="VergeSummarizer\static\content\" />
     <Folder Include="VergeSummarizer\static\fonts\" />
+    <Folder Include="VergeSummarizer\static\icons\" />
     <Folder Include="VergeSummarizer\static\scripts\" />
     <Folder Include="VergeSummarizer\templates\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="requirements.txt" />
     <Content Include="VergeSummarizer\static\content\bootstrap.css" />
     <Content Include="VergeSummarizer\static\content\bootstrap.min.css" />
@@ -49,6 +54,7 @@
     <Content Include="VergeSummarizer\static\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="VergeSummarizer\static\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="VergeSummarizer\static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="VergeSummarizer\static\icons\TheVergeSummarizer.ico" />
     <Content Include="VergeSummarizer\static\scripts\bootstrap.js" />
     <Content Include="VergeSummarizer\static\scripts\bootstrap.min.js" />
     <Content Include="VergeSummarizer\static\scripts\jquery-1.10.2.intellisense.js" />

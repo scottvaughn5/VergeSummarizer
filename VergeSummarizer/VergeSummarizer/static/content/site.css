@@ -1,42 +1,28 @@
 body {
     padding-top: 50px;
     padding-bottom: 20px;
+    height: 100%;
 }
 
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+#content{
+    height: 100%;
+    background-color: black;
+    color: white;
+    padding: 20%;
 }
-
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
+input{
+    width: 95%;
+    background-color: black;
+    color: white;
+    border: 0px;
+    border-bottom: solid 1px gray;
 }
-
-/* styles for validation helpers */
-.field-validation-error {
-    color: #b94a48;
+.glyphicon{
+    cursor:pointer;
 }
-
-.field-validation-valid {
-    display: none;
+#article-link{
+    margin-bottom: 20px;
 }
-
-input.input-validation-error {
-    border: 1px solid #b94a48;
-}
-
-input[type="checkbox"].input-validation-error {
-    border: 0 none;
-}
-
-.validation-summary-errors {
-    color: #b94a48;
-}
-
-.validation-summary-valid {
-    display: none;
+input{
+    outline: none;
 }
